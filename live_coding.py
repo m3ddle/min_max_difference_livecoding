@@ -1,8 +1,8 @@
 the_array = [15, 22, 84, 14, 88, 23]
 
 def minmax(array):
-    minimum = 100000000
-    maximum = 0
+    minimum = array[0]
+    maximum = array[0]
     difference = 0
 
     for number in array:
@@ -15,4 +15,3 @@ def minmax(array):
     difference = maximum - minimum
 
     return difference
-
